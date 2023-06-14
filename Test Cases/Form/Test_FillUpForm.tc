@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_FillUpForm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bad162e-dd51-4651-9186-279d4f25f5af</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae531439-6423-40e2-95b5-8c1b0fde19d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.url_Form</defaultValue>
+      <description></description>
+      <id>ae531439-6423-40e2-95b5-8c1b0fde19d6</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

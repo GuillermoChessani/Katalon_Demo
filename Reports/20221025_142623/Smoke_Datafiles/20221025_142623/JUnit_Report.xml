@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_Datafiles" time="96.941" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke_Datafiles" tests="3" failures="0" errors="0" time="96.941" skipped="0" timestamp="2022-10-25 14:26:27" hostname="memo_ - LAPTOP-8G2EG4D2" id="Test Suites/Smoke_Datafiles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221025_142623\\Smoke_Datafiles\\20221025_142623"/>
+         <property name="logFiles" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221025_142623\\Smoke_Datafiles\\20221025_142623\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="memo_ - LAPTOP-8G2EG4D2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Firefox 103.0"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="aa5ff798-d4d5-4349-b0eb-eb56050ec606"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Form/Test_FillUpForm with DataFiles" time="48.384" classname="Test Cases/Form/Test_FillUpForm with DataFiles" status="PASSED">
+         <system-out><![CDATA[2022-10-25 14:26:28 - [TEST_CASE][PASSED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles
+
+2022-10-25 14:26:28 - [TEST_STEP][PASSED] - openBrowser(url_form): Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-25 14:26:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-10-25 14:26:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 14:27:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-25 14:27:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 14:27:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - input_FirstName = findTestObject("Object Repository/Page_FillUpForm/input_FirstName"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - input_LastName = findTestObject("Object Repository/Page_FillUpForm/input_Last name_lastname"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - input_Date = findTestObject("Object Repository/Page_FillUpForm/input_Date_datepicker"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - input_Gender = findTestObject("Object Repository/Page_FillUpForm/input_Gender_sex"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - radio_YoE = findTestObject("Object Repository/Page_FillUpForm/input_Years of Experience_exp"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - radio_Automation = findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - radio_Manual = findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession_1"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - radio_Selenium = findTestObject("Object Repository/Page_FillUpForm/input_Automation Tools_tool"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - sel_Region = findTestObject("Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - sel_skills = findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - btn_Submit = findTestObject("Object Repository/Page_FillUpForm/btnSubmit"): null
+
+2022-10-25 14:27:05 - [TEST_STEP][PASSED] - setText(input_FirstName, first_name): Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-25 14:27:06 - [MESSAGE][PASSED] - Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-25 14:27:06 - [TEST_STEP][PASSED] - setText(input_LastName, last_name): Text 'Perez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-25 14:27:07 - [MESSAGE][PASSED] - Text 'Perez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-25 14:27:07 - [TEST_STEP][PASSED] - click(input_Gender): Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-25 14:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-25 14:27:07 - [TEST_STEP][PASSED] - click(radio_YoE): Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-25 14:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-25 14:27:08 - [TEST_STEP][PASSED] - setText(input_Date, date): Text '14/07/1993' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-25 14:27:08 - [MESSAGE][PASSED] - Text '14/07/1993' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-25 14:27:08 - [TEST_STEP][PASSED] - click(radio_Automation): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-25 14:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-25 14:27:09 - [TEST_STEP][PASSED] - click(radio_Manual): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-25 14:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-25 14:27:09 - [TEST_STEP][PASSED] - click(radio_Selenium): Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-25 14:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-25 14:27:10 - [TEST_STEP][PASSED] - selectOptionByValue(sel_Region, "North America", true): All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-25 14:27:12 - [MESSAGE][PASSED] - All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-25 14:27:12 - [TEST_STEP][PASSED] - selectOptionByValue(sel_skills, "Browser Commands", true): All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-25 14:27:14 - [MESSAGE][PASSED] - All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-25 14:27:14 - [TEST_STEP][PASSED] - click(btn_Submit): Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-25 14:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-25 14:27:14 - [TEST_STEP][PASSED] - verifyElementPresent(btn_Submit, 3): Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-25 14:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-25 14:27:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 14:27:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form/Test_FillUpForm with DataFiles" time="23.112" classname="Test Cases/Form/Test_FillUpForm with DataFiles" status="PASSED">
+         <system-out><![CDATA[2022-10-25 14:27:16 - [TEST_CASE][PASSED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles
+
+2022-10-25 14:27:16 - [TEST_STEP][PASSED] - openBrowser(url_form): Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-25 14:27:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-10-25 14:27:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 14:27:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 14:27:24 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - input_FirstName = findTestObject("Object Repository/Page_FillUpForm/input_FirstName"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - input_LastName = findTestObject("Object Repository/Page_FillUpForm/input_Last name_lastname"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - input_Date = findTestObject("Object Repository/Page_FillUpForm/input_Date_datepicker"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - input_Gender = findTestObject("Object Repository/Page_FillUpForm/input_Gender_sex"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - radio_YoE = findTestObject("Object Repository/Page_FillUpForm/input_Years of Experience_exp"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - radio_Automation = findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - radio_Manual = findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession_1"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - radio_Selenium = findTestObject("Object Repository/Page_FillUpForm/input_Automation Tools_tool"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - sel_Region = findTestObject("Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - sel_skills = findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - btn_Submit = findTestObject("Object Repository/Page_FillUpForm/btnSubmit"): null
+
+2022-10-25 14:27:24 - [TEST_STEP][PASSED] - setText(input_FirstName, first_name): Text 'David' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-25 14:27:28 - [MESSAGE][PASSED] - Text 'David' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-25 14:27:28 - [TEST_STEP][PASSED] - setText(input_LastName, last_name): Text 'Chessani' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-25 14:27:30 - [MESSAGE][PASSED] - Text 'Chessani' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-25 14:27:30 - [TEST_STEP][PASSED] - click(input_Gender): Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-25 14:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-25 14:27:31 - [TEST_STEP][PASSED] - click(radio_YoE): Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-25 14:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-25 14:27:31 - [TEST_STEP][PASSED] - setText(input_Date, date): Text '06/02/1988' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-25 14:27:32 - [MESSAGE][PASSED] - Text '06/02/1988' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-25 14:27:32 - [TEST_STEP][PASSED] - click(radio_Automation): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-25 14:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-25 14:27:32 - [TEST_STEP][PASSED] - click(radio_Manual): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-25 14:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-25 14:27:33 - [TEST_STEP][PASSED] - click(radio_Selenium): Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-25 14:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-25 14:27:33 - [TEST_STEP][PASSED] - selectOptionByValue(sel_Region, "North America", true): All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-25 14:27:35 - [MESSAGE][PASSED] - All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-25 14:27:35 - [TEST_STEP][PASSED] - selectOptionByValue(sel_skills, "Browser Commands", true): All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-25 14:27:37 - [MESSAGE][PASSED] - All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-25 14:27:37 - [TEST_STEP][PASSED] - click(btn_Submit): Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-25 14:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-25 14:27:38 - [TEST_STEP][PASSED] - verifyElementPresent(btn_Submit, 3): Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-25 14:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-25 14:27:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 14:27:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form/Test_FillUpForm with DataFiles" time="25.092" classname="Test Cases/Form/Test_FillUpForm with DataFiles" status="PASSED">
+         <system-out><![CDATA[2022-10-25 14:27:39 - [TEST_CASE][PASSED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles
+
+2022-10-25 14:27:39 - [TEST_STEP][PASSED] - openBrowser(url_form): Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-25 14:27:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-10-25 14:27:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 14:27:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 14:27:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - input_FirstName = findTestObject("Object Repository/Page_FillUpForm/input_FirstName"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - input_LastName = findTestObject("Object Repository/Page_FillUpForm/input_Last name_lastname"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - input_Date = findTestObject("Object Repository/Page_FillUpForm/input_Date_datepicker"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - input_Gender = findTestObject("Object Repository/Page_FillUpForm/input_Gender_sex"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - radio_YoE = findTestObject("Object Repository/Page_FillUpForm/input_Years of Experience_exp"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - radio_Automation = findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - radio_Manual = findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession_1"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - radio_Selenium = findTestObject("Object Repository/Page_FillUpForm/input_Automation Tools_tool"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - sel_Region = findTestObject("Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - sel_skills = findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - btn_Submit = findTestObject("Object Repository/Page_FillUpForm/btnSubmit"): null
+
+2022-10-25 14:27:47 - [TEST_STEP][PASSED] - setText(input_FirstName, first_name): Text 'Juan' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-25 14:27:50 - [MESSAGE][PASSED] - Text 'Juan' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-25 14:27:50 - [TEST_STEP][PASSED] - setText(input_LastName, last_name): Text 'Lopez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-25 14:27:53 - [MESSAGE][PASSED] - Text 'Lopez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-25 14:27:53 - [TEST_STEP][PASSED] - click(input_Gender): Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-25 14:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-25 14:27:54 - [TEST_STEP][PASSED] - click(radio_YoE): Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-25 14:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-25 14:27:54 - [TEST_STEP][PASSED] - setText(input_Date, date): Text '01/01/2001' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-25 14:27:55 - [MESSAGE][PASSED] - Text '01/01/2001' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-25 14:27:55 - [TEST_STEP][PASSED] - click(radio_Automation): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-25 14:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-25 14:27:57 - [TEST_STEP][PASSED] - click(radio_Manual): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-25 14:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-25 14:27:58 - [TEST_STEP][PASSED] - click(radio_Selenium): Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-25 14:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-25 14:27:59 - [TEST_STEP][PASSED] - selectOptionByValue(sel_Region, "North America", true): All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-25 14:28:00 - [MESSAGE][PASSED] - All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-25 14:28:00 - [TEST_STEP][PASSED] - selectOptionByValue(sel_skills, "Browser Commands", true): All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-25 14:28:01 - [MESSAGE][PASSED] - All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-25 14:28:01 - [TEST_STEP][PASSED] - click(btn_Submit): Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-25 14:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-25 14:28:02 - [TEST_STEP][PASSED] - verifyElementPresent(btn_Submit, 3): Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-25 14:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-25 14:28:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 14:28:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-25 14:26:27 - [TEST_SUITE][PASSED] - Smoke_Datafiles: Test Cases/Form/Test_FillUpForm with DataFiles]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

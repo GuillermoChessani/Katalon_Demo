@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke_Tests,Chrome 106.0.5249.119,,,2022-10-24 15:05:14,2022-10-24 15:05:23,8.944s,PASSED
+,,,,,,,
+Test Cases/Login/Test_ValidLogin,Chrome 106.0.5249.119,"Entries: Username and Password
+State: Valid Credentials
+Expected Result: Should let me pass to Dashboard and see Welcome Message.","Smoke, Regression",2022-10-24 15:05:14,2022-10-24 15:05:23,8.729s,PASSED
+openBrowser(url_login),Chrome 106.0.5249.119,,,2022-10-24 15:05:14,2022-10-24 15:05:19,4.799s,PASSED
+maximizeWindow(),Chrome 106.0.5249.119,,,2022-10-24 15:05:19,2022-10-24 15:05:19,0.130s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/textField_Username""), Username)",Chrome 106.0.5249.119,,,2022-10-24 15:05:19,2022-10-24 15:05:20,0.363s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/textField_Password""), Password)",Chrome 106.0.5249.119,,,2022-10-24 15:05:20,2022-10-24 15:05:20,0.190s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Login""))",Chrome 106.0.5249.119,,,2022-10-24 15:05:20,2022-10-24 15:05:20,0.134s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/message_Welcome""))",Chrome 106.0.5249.119,,,2022-10-24 15:05:20,2022-10-24 15:05:23,2.647s,PASSED
+"takeScreenshot(""Test Evidences/Successful_Login.jpg"")",Chrome 106.0.5249.119,,,2022-10-24 15:05:23,2022-10-24 15:05:23,0.121s,PASSED

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_Tests" time="8.944" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke_Tests" tests="1" failures="0" errors="0" time="8.944" skipped="0" timestamp="2022-10-24 15:05:14" hostname="memo_ - LAPTOP-8G2EG4D2" id="Test Suites/Smoke_Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221024_150509\\Smoke_Tests\\20221024_150509"/>
+         <property name="logFiles" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221024_150509\\Smoke_Tests\\20221024_150509\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221024_150509\\Smoke_Tests\\20221024_150509\\Test Evidences/Successful_Login.jpg"/>
+         <property name="hostName" value="memo_ - LAPTOP-8G2EG4D2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 106.0.5249.119"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="sessionId" value="c267c5f1a32f1bed0282826e9efb7664"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test_ValidLogin" time="8.729" classname="Test Cases/Login/Test_ValidLogin" status="PASSED">
+         <system-out><![CDATA[2022-10-24 15:05:14 - [TEST_CASE][PASSED] - Test Cases/Login/Test_ValidLogin: Test Cases/Login/Test_ValidLogin
+
+2022-10-24 15:05:14 - [TEST_STEP][PASSED] - openBrowser(url_login): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2022-10-24 15:05:15 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-10-24 15:05:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 15:05:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2022-10-24 15:05:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 15:05:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 15:05:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/textField_Username"), Username): Text 'Admin' is set on object 'Object Repository/Page_Login/textField_Username'
+
+2022-10-24 15:05:20 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_Login/textField_Username'
+
+2022-10-24 15:05:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/textField_Password"), Password): Text 'admin123' is set on object 'Object Repository/Page_Login/textField_Password'
+
+2022-10-24 15:05:20 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_Login/textField_Password'
+
+2022-10-24 15:05:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Login")): Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2022-10-24 15:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2022-10-24 15:05:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Login/message_Welcome")): Object 'Object Repository/Page_Login/message_Welcome' is visible
+
+2022-10-24 15:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/message_Welcome' is visible
+
+2022-10-24 15:05:23 - [TEST_STEP][PASSED] - takeScreenshot("Test Evidences/Successful_Login.jpg"): Taking screenshot successfully
+
+2022-10-24 15:05:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221024_150509\\Smoke_Tests\\20221024_150509\\Test Evidences/Successful_Login.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-24 15:05:14 - [TEST_SUITE][PASSED] - Smoke_Tests: Test Cases/Login/Test_ValidLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

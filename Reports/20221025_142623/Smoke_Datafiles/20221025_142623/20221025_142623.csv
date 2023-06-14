@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke_Datafiles,Firefox 103.0,,,2022-10-25 14:26:27,2022-10-25 14:28:04,1m - 36.941s,PASSED
+,,,,,,,
+Test Cases/Form/Test_FillUpForm with DataFiles,Firefox 103.0,,,2022-10-25 14:26:28,2022-10-25 14:27:16,48.384s,PASSED
+openBrowser(url_form),Firefox 103.0,,,2022-10-25 14:26:28,2022-10-25 14:27:04,36.517s,PASSED
+maximizeWindow(),Firefox 103.0,,,2022-10-25 14:27:04,2022-10-25 14:27:05,0.277s,PASSED
+"input_FirstName = findTestObject(""Object Repository/Page_FillUpForm/input_FirstName"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.052s,PASSED
+"input_LastName = findTestObject(""Object Repository/Page_FillUpForm/input_Last name_lastname"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.037s,PASSED
+"input_Date = findTestObject(""Object Repository/Page_FillUpForm/input_Date_datepicker"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.043s,PASSED
+"input_Gender = findTestObject(""Object Repository/Page_FillUpForm/input_Gender_sex"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.040s,PASSED
+"radio_YoE = findTestObject(""Object Repository/Page_FillUpForm/input_Years of Experience_exp"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.030s,PASSED
+"radio_Automation = findTestObject(""Object Repository/Page_FillUpForm/input_Profession_profession"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.032s,PASSED
+"radio_Manual = findTestObject(""Object Repository/Page_FillUpForm/input_Profession_profession_1"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.031s,PASSED
+"radio_Selenium = findTestObject(""Object Repository/Page_FillUpForm/input_Automation Tools_tool"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.035s,PASSED
+"sel_Region = findTestObject(""Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.048s,PASSED
+"sel_skills = findTestObject(""Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.030s,PASSED
+"btn_Submit = findTestObject(""Object Repository/Page_FillUpForm/btnSubmit"")",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:05,0.032s,PASSED
+"setText(input_FirstName, first_name)",Firefox 103.0,,,2022-10-25 14:27:05,2022-10-25 14:27:06,0.607s,PASSED
+"setText(input_LastName, last_name)",Firefox 103.0,,,2022-10-25 14:27:06,2022-10-25 14:27:07,0.785s,PASSED
+click(input_Gender),Firefox 103.0,,,2022-10-25 14:27:07,2022-10-25 14:27:07,0.519s,PASSED
+click(radio_YoE),Firefox 103.0,,,2022-10-25 14:27:07,2022-10-25 14:27:08,0.507s,PASSED
+"setText(input_Date, date)",Firefox 103.0,,,2022-10-25 14:27:08,2022-10-25 14:27:08,0.684s,PASSED
+click(radio_Automation),Firefox 103.0,,,2022-10-25 14:27:08,2022-10-25 14:27:09,0.493s,PASSED
+click(radio_Manual),Firefox 103.0,,,2022-10-25 14:27:09,2022-10-25 14:27:09,0.497s,PASSED
+click(radio_Selenium),Firefox 103.0,,,2022-10-25 14:27:09,2022-10-25 14:27:10,0.489s,PASSED
+"selectOptionByValue(sel_Region, ""North America"", true)",Firefox 103.0,,,2022-10-25 14:27:10,2022-10-25 14:27:12,2.762s,PASSED
+"selectOptionByValue(sel_skills, ""Browser Commands"", true)",Firefox 103.0,,,2022-10-25 14:27:12,2022-10-25 14:27:14,1.342s,PASSED
+click(btn_Submit),Firefox 103.0,,,2022-10-25 14:27:14,2022-10-25 14:27:14,0.482s,PASSED
+"verifyElementPresent(btn_Submit, 3)",Firefox 103.0,,,2022-10-25 14:27:14,2022-10-25 14:27:15,0.708s,PASSED
+closeBrowser(),Firefox 103.0,,,2022-10-25 14:27:15,2022-10-25 14:27:16,0.990s,PASSED
+,,,,,,,
+Test Cases/Form/Test_FillUpForm with DataFiles,Firefox 103.0,,,2022-10-25 14:27:16,2022-10-25 14:27:39,23.112s,PASSED
+openBrowser(url_form),Firefox 103.0,,,2022-10-25 14:27:16,2022-10-25 14:27:24,7.496s,PASSED
+maximizeWindow(),Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.019s,PASSED
+"input_FirstName = findTestObject(""Object Repository/Page_FillUpForm/input_FirstName"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.039s,PASSED
+"input_LastName = findTestObject(""Object Repository/Page_FillUpForm/input_Last name_lastname"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.034s,PASSED
+"input_Date = findTestObject(""Object Repository/Page_FillUpForm/input_Date_datepicker"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.030s,PASSED
+"input_Gender = findTestObject(""Object Repository/Page_FillUpForm/input_Gender_sex"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.040s,PASSED
+"radio_YoE = findTestObject(""Object Repository/Page_FillUpForm/input_Years of Experience_exp"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.037s,PASSED
+"radio_Automation = findTestObject(""Object Repository/Page_FillUpForm/input_Profession_profession"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.041s,PASSED
+"radio_Manual = findTestObject(""Object Repository/Page_FillUpForm/input_Profession_profession_1"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.034s,PASSED
+"radio_Selenium = findTestObject(""Object Repository/Page_FillUpForm/input_Automation Tools_tool"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.048s,PASSED
+"sel_Region = findTestObject(""Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.033s,PASSED
+"sel_skills = findTestObject(""Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.030s,PASSED
+"btn_Submit = findTestObject(""Object Repository/Page_FillUpForm/btnSubmit"")",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:24,0.039s,PASSED
+"setText(input_FirstName, first_name)",Firefox 103.0,,,2022-10-25 14:27:24,2022-10-25 14:27:28,3.735s,PASSED
+"setText(input_LastName, last_name)",Firefox 103.0,,,2022-10-25 14:27:28,2022-10-25 14:27:30,2.721s,PASSED
+click(input_Gender),Firefox 103.0,,,2022-10-25 14:27:30,2022-10-25 14:27:31,0.498s,PASSED
+click(radio_YoE),Firefox 103.0,,,2022-10-25 14:27:31,2022-10-25 14:27:31,0.493s,PASSED
+"setText(input_Date, date)",Firefox 103.0,,,2022-10-25 14:27:31,2022-10-25 14:27:32,0.564s,PASSED
+click(radio_Automation),Firefox 103.0,,,2022-10-25 14:27:32,2022-10-25 14:27:32,0.475s,PASSED
+click(radio_Manual),Firefox 103.0,,,2022-10-25 14:27:32,2022-10-25 14:27:33,0.482s,PASSED
+click(radio_Selenium),Firefox 103.0,,,2022-10-25 14:27:33,2022-10-25 14:27:33,0.487s,PASSED
+"selectOptionByValue(sel_Region, ""North America"", true)",Firefox 103.0,,,2022-10-25 14:27:33,2022-10-25 14:27:35,1.242s,PASSED
+"selectOptionByValue(sel_skills, ""Browser Commands"", true)",Firefox 103.0,,,2022-10-25 14:27:35,2022-10-25 14:27:37,2.440s,PASSED
+click(btn_Submit),Firefox 103.0,,,2022-10-25 14:27:37,2022-10-25 14:27:38,0.916s,PASSED
+"verifyElementPresent(btn_Submit, 3)",Firefox 103.0,,,2022-10-25 14:27:38,2022-10-25 14:27:38,0.262s,PASSED
+closeBrowser(),Firefox 103.0,,,2022-10-25 14:27:38,2022-10-25 14:27:39,0.835s,PASSED
+,,,,,,,
+Test Cases/Form/Test_FillUpForm with DataFiles,Firefox 103.0,,,2022-10-25 14:27:39,2022-10-25 14:28:04,25.092s,PASSED
+openBrowser(url_form),Firefox 103.0,,,2022-10-25 14:27:39,2022-10-25 14:27:47,7.767s,PASSED
+maximizeWindow(),Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.027s,PASSED
+"input_FirstName = findTestObject(""Object Repository/Page_FillUpForm/input_FirstName"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.026s,PASSED
+"input_LastName = findTestObject(""Object Repository/Page_FillUpForm/input_Last name_lastname"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.041s,PASSED
+"input_Date = findTestObject(""Object Repository/Page_FillUpForm/input_Date_datepicker"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.040s,PASSED
+"input_Gender = findTestObject(""Object Repository/Page_FillUpForm/input_Gender_sex"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.038s,PASSED
+"radio_YoE = findTestObject(""Object Repository/Page_FillUpForm/input_Years of Experience_exp"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.028s,PASSED
+"radio_Automation = findTestObject(""Object Repository/Page_FillUpForm/input_Profession_profession"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.063s,PASSED
+"radio_Manual = findTestObject(""Object Repository/Page_FillUpForm/input_Profession_profession_1"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.038s,PASSED
+"radio_Selenium = findTestObject(""Object Repository/Page_FillUpForm/input_Automation Tools_tool"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.043s,PASSED
+"sel_Region = findTestObject(""Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.031s,PASSED
+"sel_skills = findTestObject(""Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.039s,PASSED
+"btn_Submit = findTestObject(""Object Repository/Page_FillUpForm/btnSubmit"")",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:47,0.032s,PASSED
+"setText(input_FirstName, first_name)",Firefox 103.0,,,2022-10-25 14:27:47,2022-10-25 14:27:50,2.342s,PASSED
+"setText(input_LastName, last_name)",Firefox 103.0,,,2022-10-25 14:27:50,2022-10-25 14:27:53,3.297s,PASSED
+click(input_Gender),Firefox 103.0,,,2022-10-25 14:27:53,2022-10-25 14:27:54,0.513s,PASSED
+click(radio_YoE),Firefox 103.0,,,2022-10-25 14:27:54,2022-10-25 14:27:54,0.505s,PASSED
+"setText(input_Date, date)",Firefox 103.0,,,2022-10-25 14:27:54,2022-10-25 14:27:55,1.334s,PASSED
+click(radio_Automation),Firefox 103.0,,,2022-10-25 14:27:55,2022-10-25 14:27:57,1.885s,PASSED
+click(radio_Manual),Firefox 103.0,,,2022-10-25 14:27:57,2022-10-25 14:27:58,0.494s,PASSED
+click(radio_Selenium),Firefox 103.0,,,2022-10-25 14:27:58,2022-10-25 14:27:59,1.257s,PASSED
+"selectOptionByValue(sel_Region, ""North America"", true)",Firefox 103.0,,,2022-10-25 14:27:59,2022-10-25 14:28:00,1.292s,PASSED
+"selectOptionByValue(sel_skills, ""Browser Commands"", true)",Firefox 103.0,,,2022-10-25 14:28:00,2022-10-25 14:28:01,1.156s,PASSED
+click(btn_Submit),Firefox 103.0,,,2022-10-25 14:28:01,2022-10-25 14:28:02,0.554s,PASSED
+"verifyElementPresent(btn_Submit, 3)",Firefox 103.0,,,2022-10-25 14:28:02,2022-10-25 14:28:03,1.254s,PASSED
+closeBrowser(),Firefox 103.0,,,2022-10-25 14:28:03,2022-10-25 14:28:04,0.974s,PASSED

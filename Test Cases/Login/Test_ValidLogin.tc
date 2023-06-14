@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Entries: Username and Password
+State: Valid Credentials
+Expected Result: Should let me pass to Dashboard and see Welcome Message.</description>
+   <name>Test_ValidLogin</name>
+   <tag>Smoke, Regression</tag>
+   <comment></comment>
+   <testCaseGuid>c9a7062f-876d-4768-89d7-833e1a14f61e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77e092c4-30a2-4001-bc99-b51750623dde</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a4a933b-bab9-4271-b1be-0bc91cd2494f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>77e092c4-30a2-4001-bc99-b51750623dde</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>1a4a933b-bab9-4271-b1be-0bc91cd2494f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_Datafiles" time="47.679" tests="3" failures="1" errors="0">
+   <testsuite name="Smoke_Datafiles" tests="3" failures="1" errors="0" time="47.679" skipped="0" timestamp="2022-10-24 13:53:32" hostname="memo_ - LAPTOP-8G2EG4D2" id="Test Suites/Smoke_Datafiles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221024_135327\\Smoke_Datafiles\\20221024_135327"/>
+         <property name="logFiles" value="C:\\Users\\memo_\\Katalon Studio\\Katalon_Demo\\Reports\\20221024_135327\\Smoke_Datafiles\\20221024_135327\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="memo_ - LAPTOP-8G2EG4D2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="sessionId" value="63ab9bd81ecb7d02974e2349e6074c0b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Form/Test_FillUpForm with DataFiles" time="22.366" classname="Test Cases/Form/Test_FillUpForm with DataFiles" status="PASSED">
+         <system-out><![CDATA[2022-10-24 13:53:32 - [TEST_CASE][PASSED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles
+
+2022-10-24 13:53:33 - [TEST_STEP][PASSED] - openBrowser(url_form): Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-24 13:53:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 13:53:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 13:53:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-24 13:53:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 13:53:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 13:53:38 - [TEST_STEP][PASSED] - input_FirstName = findTestObject("Object Repository/Page_FillUpForm/input_FirstName"): null
+
+2022-10-24 13:53:38 - [TEST_STEP][PASSED] - input_LastName = findTestObject("Object Repository/Page_FillUpForm/input_Last name_lastname"): null
+
+2022-10-24 13:53:39 - [TEST_STEP][PASSED] - input_Date = findTestObject("Object Repository/Page_FillUpForm/input_Date_datepicker"): null
+
+2022-10-24 13:53:39 - [TEST_STEP][PASSED] - setText(input_FirstName, findTestData("users").getValue(1, 1)): Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-24 13:53:43 - [MESSAGE][PASSED] - Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-24 13:53:43 - [TEST_STEP][PASSED] - setText(input_LastName, findTestData("users").getValue(2, 1)): Text 'Perez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-24 13:53:47 - [MESSAGE][PASSED] - Text 'Perez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-24 13:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Gender_sex")): Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-24 13:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-24 13:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Years of Experience_exp")): Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-24 13:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-24 13:53:48 - [TEST_STEP][PASSED] - setText(input_Date, findTestData("users").getValue(3, 1)): Text '14/07/1993' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-24 13:53:49 - [MESSAGE][PASSED] - Text '14/07/1993' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-24 13:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession")): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-24 13:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-24 13:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession_1")): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-24 13:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-24 13:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Automation Tools_tool")): Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-24 13:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-24 13:53:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"), "North America", true): All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-24 13:53:51 - [MESSAGE][PASSED] - All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-24 13:53:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"), "Browser Commands", true): All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:53:52 - [MESSAGE][PASSED] - All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:53:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"), "WebElement Commands", true): All options with value 'WebElement Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:53:53 - [MESSAGE][PASSED] - All options with value 'WebElement Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/btnSubmit")): Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-24 13:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-24 13:53:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_FillUpForm/btnSubmit"), 3): Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-24 13:53:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FillUpForm/btnSubmit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form/Test_FillUpForm with DataFiles" time="13.67" classname="Test Cases/Form/Test_FillUpForm with DataFiles" status="PASSED">
+         <system-out><![CDATA[2022-10-24 13:53:55 - [TEST_CASE][PASSED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles
+
+2022-10-24 13:53:55 - [TEST_STEP][PASSED] - openBrowser(url_form): Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-24 13:53:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-24 13:53:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 13:53:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 13:53:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-24 13:53:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 13:53:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 13:53:58 - [TEST_STEP][PASSED] - input_FirstName = findTestObject("Object Repository/Page_FillUpForm/input_FirstName"): null
+
+2022-10-24 13:53:58 - [TEST_STEP][PASSED] - input_LastName = findTestObject("Object Repository/Page_FillUpForm/input_Last name_lastname"): null
+
+2022-10-24 13:53:58 - [TEST_STEP][PASSED] - input_Date = findTestObject("Object Repository/Page_FillUpForm/input_Date_datepicker"): null
+
+2022-10-24 13:53:58 - [TEST_STEP][PASSED] - setText(input_FirstName, findTestData("users").getValue(1, 1)): Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-24 13:53:58 - [MESSAGE][PASSED] - Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-24 13:53:58 - [TEST_STEP][PASSED] - setText(input_LastName, findTestData("users").getValue(2, 1)): Text 'Perez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-24 13:53:59 - [MESSAGE][PASSED] - Text 'Perez' is set on object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+
+2022-10-24 13:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Gender_sex")): Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-24 13:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Gender_sex' is clicked on
+
+2022-10-24 13:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Years of Experience_exp")): Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-24 13:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Years of Experience_exp' is clicked on
+
+2022-10-24 13:54:00 - [TEST_STEP][PASSED] - setText(input_Date, findTestData("users").getValue(3, 1)): Text '14/07/1993' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-24 13:54:00 - [MESSAGE][PASSED] - Text '14/07/1993' is set on object 'Object Repository/Page_FillUpForm/input_Date_datepicker'
+
+2022-10-24 13:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession")): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-24 13:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession' is clicked on
+
+2022-10-24 13:54:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Profession_profession_1")): Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-24 13:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Profession_profession_1' is clicked on
+
+2022-10-24 13:54:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/input_Automation Tools_tool")): Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-24 13:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/input_Automation Tools_tool' is clicked on
+
+2022-10-24 13:54:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86"), "North America", true): All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-24 13:54:05 - [MESSAGE][PASSED] - All options with value 'North America' are selected in object 'Object Repository/Page_FillUpForm/select_AsiaEuropeAfricaAustraliaSouth Ameri_982c86'  using regular expression
+
+2022-10-24 13:54:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"), "Browser Commands", true): All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:54:07 - [MESSAGE][PASSED] - All options with value 'Browser Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:54:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390"), "WebElement Commands", true): All options with value 'WebElement Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:54:08 - [MESSAGE][PASSED] - All options with value 'WebElement Commands' are selected in object 'Object Repository/Page_FillUpForm/select_Browser CommandsNavigation CommandsS_69f390'  using regular expression
+
+2022-10-24 13:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FillUpForm/btnSubmit")): Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-24 13:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FillUpForm/btnSubmit' is clicked on
+
+2022-10-24 13:54:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_FillUpForm/btnSubmit"), 3): Object 'Object Repository/Page_FillUpForm/btnSubmit' is present
+
+2022-10-24 13:54:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_FillUpForm/btnSubmit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form/Test_FillUpForm with DataFiles" time="11.327" classname="Test Cases/Form/Test_FillUpForm with DataFiles" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Form/Test_FillUpForm with DataFiles FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-10-24 13:54:08 - [TEST_CASE][FAILED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-10-24 13:54:08 - [TEST_STEP][PASSED] - openBrowser(url_form): Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-24 13:54:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-24 13:54:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 13:54:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 13:54:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.techlistic.com/p/selenium-practice-form.html'
+
+2022-10-24 13:54:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 13:54:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 13:54:14 - [TEST_STEP][PASSED] - input_FirstName = findTestObject("Object Repository/Page_FillUpForm/input_FirstName"): null
+
+2022-10-24 13:54:14 - [TEST_STEP][PASSED] - input_LastName = findTestObject("Object Repository/Page_FillUpForm/input_Last name_lastname"): null
+
+2022-10-24 13:54:14 - [TEST_STEP][PASSED] - input_Date = findTestObject("Object Repository/Page_FillUpForm/input_Date_datepicker"): null
+
+2022-10-24 13:54:14 - [TEST_STEP][PASSED] - setText(input_FirstName, findTestData("users").getValue(1, 1)): Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-24 13:54:18 - [MESSAGE][PASSED] - Text 'Guillermo' is set on object 'Object Repository/Page_FillUpForm/input_FirstName'
+
+2022-10-24 13:54:18 - [TEST_STEP][FAILED] - setText(input_LastName, findTestData("users").getValue(2, 1)): Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1666636680777.run(Script1666636680777.groovy:32)
+	... 13 more
+)
+
+2022-10-24 13:54:20 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2022-10-24 13:54:20 - [MESSAGE][FAILED] - Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1666636680777.run(Script1666636680777.groovy:32)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2022-10-24 13:54:08 - [TEST_CASE][FAILED] - Test Cases/Form/Test_FillUpForm with DataFiles: Test Cases/Form/Test_FillUpForm with DataFiles FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-24 13:53:32 - [TEST_SUITE][FAILED] - Smoke_Datafiles: Test Cases/Form/Test_FillUpForm with DataFiles FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-10-24 13:53:32 - [TEST_SUITE][FAILED] - Smoke_Datafiles: Test Cases/Form/Test_FillUpForm with DataFiles FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Perez' of object 'Object Repository/Page_FillUpForm/input_Last name_lastname'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Test_FillUpForm with DataFiles.run(Test_FillUpForm with DataFiles:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666637607270.run(TempTestSuite1666637607270.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-8G2EG4D2', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\memo_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab9bd81ecb7d02974e2349e6074c0b
+*** Element info: {Using=xpath, value=//input[@name='lastname']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
